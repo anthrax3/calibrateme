@@ -1,0 +1,6 @@
+linker gcc -fPIE -Wl,-z,relro -Wl,-z,now
+database dbname=calibratedb
+sql sql.sql
+
+$/list
+calibrate
