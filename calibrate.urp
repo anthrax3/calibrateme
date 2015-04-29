@@ -1,4 +1,5 @@
 linker gcc -fPIE -Wl,-z,relro -Wl,-z,now
+rewrite url Calibrate/main index
 database dbname=calibratedb
 sql sql.sql
 
